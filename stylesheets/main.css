@@ -6,7 +6,7 @@
 html, body {
   font-size: 1vw;
   background-color: white;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 header .menu {
@@ -76,7 +76,7 @@ main .main p {
 main .main .cover {
   width: 100%;
   text-align: center;
-  overflow: hidden;
+  overflow-x: hidden;
   padding-bottom: 5vw;
 }
 
@@ -136,6 +136,11 @@ main .main .cover {
   width: 70vw;
 }
 
+#benefit-2, #benefit-4{
+  margin: 15vw 29vw;
+  width: 80vw;
+}
+
 #benefit-1 .text-1, #benefit-2 .text-2, #benefit-3 .text-3, #benefit-4 .text-4 {
   display: flex;
   flex-direction: column;
@@ -178,6 +183,29 @@ main .main .cover {
   margin: 0 auto;
 }
 
+.animation-proto-2 {
+  position: relative;
+  text-align: center;
+  width: 50vw;
+
+  margin-left: 6vw;
+  overflow-x: hidden;
+}
+
+.animation-proto-2 img:first-child {
+  z-index: 2;
+  width: 48vw;
+  position: absolute;
+  margin: 3.5vw;
+  text-align: center;
+}
+
+.animation-proto-2 img:last-child {
+  z-index: 1;
+  width: 40vw;
+  margin: 0 auto;
+}
+
 #review {
   margin: 15vw auto;
   width: 30vw;
@@ -206,4 +234,151 @@ main .main .cover {
 #review .author span {
   font-family: "Object Sans Heavy";
   font-size: 1rem;
+}
+
+#try-free .try-bloowery-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 18vw;
+  border-radius: 2vw;
+  background: rgb(67,233,123);
+  background: linear-gradient(90deg, rgba(67,233,123,1) 0%, rgba(56,249,215,1) 100%);
+
+  margin: 0 auto;
+}
+
+#try-free .try-bloowery-content .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3vw;
+  /* padding-top: 3vw; */
+}
+
+#try-free h2 {
+  font-family: "Object Sans Heavy";
+  font-size: 2.5rem;
+  text-align: left;
+  padding-bottom: 1.5vw;
+
+  color: white;
+}
+
+#try-free p {
+  text-align: left;
+  color: white;
+
+  padding-bottom: 1.5vw;
+}
+
+.heading-alt {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading-alt img {
+  width: 2vw;
+  padding-right: 0.5vw;
+}
+
+.heading-alt a {
+  font-family: "Object Sans Heavy";
+  font-size: 1.2rem;
+  text-decoration: none;
+
+  color: white;
+}
+
+#try-free .try-bloowery-content img:last-child {
+  width: 25vw;
+  padding-top: 3vw;
+}
+
+footer {
+  margin-top: 8vw;
+}
+
+footer h3 {
+  font-family: "Object Sans Regular";
+  font-size: 1rem;
+
+  color: #0F0A22;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5vw;
+}
+
+footer .content:nth-of-type(1), footer .content:nth-of-type(2), footer .content:nth-of-type(3) {
+  padding-right: 10vw;
+}
+
+footer .extra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  height: 8vw;
+}
+
+footer .extra p {
+  font-family: "Object Sans Regular";
+  font-size: 0.8rem;
+
+  color: #C8D0DC;
+}
+
+footer .extra-2 a {
+  font-family: "Object Sans Regular";
+  font-size: 0.8rem;
+  text-decoration: none;
+
+  color: #939DC3;
+}
+
+footer .extra-2 a:first-child {
+  padding-right: 1vw;
+}
+
+footer .extra-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.5vw;
+}
+
+footer .links h3 {
+  padding-bottom: 1vw;
+}
+
+
+footer .links a {
+  font-family: "Object Sans Regular";
+  font-size: 1rem;
+  text-decoration: none;
+
+  color: #939DC3;
+
+  padding-bottom: 1vw;
+}
+
+footer .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer .extra {
+
 }
