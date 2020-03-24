@@ -5,7 +5,7 @@
 
 html, body {
   font-size: 1vw;
-  background-color: white;
+  background-color: #FBFBFB;
   overflow-x: hidden;
 }
 
@@ -190,6 +190,19 @@ main .main .cover {
 
   margin-left: 6vw;
   overflow-x: hidden;
+}
+
+.animation-proto-3 {
+  text-align: center;
+  width: 30vw;
+  margin-left: 0vw;
+  margin-right: 10vw;
+
+  overflow-x: hidden;
+}
+
+.animation-proto-3 img {
+  width: 25vw;
 }
 
 .animation-proto-2 img:first-child {
