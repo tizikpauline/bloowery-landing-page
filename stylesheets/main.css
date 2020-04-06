@@ -17,7 +17,6 @@ header .menu {
 
   font-family: "Object Sans Heavy";
   font-size: 1.2rem;
-
 }
 
 header ul {
@@ -70,6 +69,33 @@ main .main p {
 
   text-align: center;
   width: 50%;
+  margin: 0 auto;
+}
+
+main .policy h1 {
+  font-family: "Object Sans Heavy";
+  font-size: 3.5rem;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 8vw;
+
+  color: #0F0A22;
+}
+
+main .policy h2 {
+  font-family: "Object Sans Heavy";
+  font-size: 2.5rem;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+main .policy p {
+  padding-top:3vw;
+  padding-bottom: 3vw;
+
+  text-align: center;
+  width: 60%;
   margin: 0 auto;
 }
 
